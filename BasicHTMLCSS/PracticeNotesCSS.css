@@ -1,0 +1,65 @@
+/* THIS IS EXTERNAL CSS
+
+Syntax :
+
+        selector{
+            property :value;
+        }
+
+
+
+*/
+
+
+/*  
+background colour is the css property for changing background colour
+syntax : 
+(background-color : red)
+ 
+                     hex value : #EAF6F6
+                     rgb(...)
+*/
+/*
+priority 
+
+i) id selectors   --->it is more specific & it is used only once on a single page 
+i) class selectors
+i) tag selectors
+
+
+*/
+/* 
+These are the tag selectors
+*/
+body{
+
+    background-color : #EAF6F6;
+    
+}
+hr{
+
+    border-style : none;
+  
+     border-top: dotted;
+     border-color: aqua;
+     border-width: 5px;
+     width: 10%;
+
+}
+h3:hover{
+  color: seashell;
+} 
+/* this is the class selectors*/
+.para{
+
+    background-color :chartreuse;
+}
+/* this is the id selectors*/
+#hi{
+    background-color :burlywood;
+
+}
+h1:hover{
+
+    color: cornflowerblue;
+}

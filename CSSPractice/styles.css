@@ -1,0 +1,282 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;   /* It gives the font   */
+    
+}
+h1{
+        width: 10%;
+        margin: 0 auto 0  auto; 
+            /* Top Right Bottom Left */
+        font-family: 'Sacramento', cursive;
+        font-size: 5.625rem;
+        color: #66BFBF;
+      /*  100% == 16px == 1em/rem (root em) */
+      
+      /*
+      Font size :-
+      i) % ---> By using font size in % it adjusted as the user zooms in or zooms out .(It is dynamic size)
+      ii) px---> It does not adjusts as the user zooms in or zooms out .(It is static size)
+      iii)em---> It is also like % ,means it adjusted as the user zooms in or zooms out .(It is dynamic size)
+      
+      
+      */
+      
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        color: #66BFBF;
+        font-size: 2.5rem;
+        font-weight: normal;
+        padding-bottom: 20px;
+    }
+    h3{
+  
+        font-family: 'Montserrat', sans-serif;
+        color: #66BFBF;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+
+}
+
+p{
+    line-height: 2;
+}
+
+.pra{
+    font-size: 2.5rem;
+}
+.profile{
+    margin: 100px 0px;
+}
+.profile img{
+    width: 120px;
+}
+.c{
+    float: left;
+    width:25%;
+    margin-right: 30px;
+}
+.Programmer{
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+
+}
+
+.bcloud{
+position: absolute;
+
+}
+.tcloud{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+
+
+
+
+
+
+
+
+/* *************************************************************************************************************** */
+/* *************************************************************************************************************** */
+
+
+
+
+
+.top{
+    background-color: #e4f9f5;
+    
+
+}
+
+.topContainer{
+
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin-left: 260px;
+    border: 20px solid;
+}
+.bottomContainer{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin-left: 540px;
+    border: solid 10px;
+    
+}
+
+
+/* ************************************************************************************************************************* */
+/* ************************************************************************************************************************* */
+
+
+/*
+-->>DISPLAY PROPERTY :
+
+SELECTOR{
+    display : inline; --->it takes alll block elements inline ,but not able to change its 
+                            width...
+    display : block;     ---> it converts the inline elements into block elements ,but not 
+                         able to change its width...
+    display : inline-block; ---> it converts the  block elements into inline element ,and  
+                                also able to change its width...
+    display : none; ---> it totally hides that element from our webpage 
+    
+
+}
+
+*/
+
+
+
+/* **************************************************************************************************************************** */
+/* **************************************************************************************************************************** */
+
+
+
+/* 
+-->>POSITIONING PROPERTY
+  
+SELECTOR{
+ 
+
+Example :-
+
+    position :relative;
+    left :30px;         --->it drags/shifts that element 30px to the right side from its
+                            original position  
+                            
+                            it doesnot affect the position of other elements .It just overlap on the element if any element is in that position.
+
+coordinate properties :
+                        * Left
+                        * Right
+                        * Top
+                        * Bottom         
+
+    position :static  ---->it is default css all elements have static position by brousers default css (without applying any css)
+
+
+
+}
+
+
+*/
+
+
+.red{
+
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+    left: 200px;
+}
+.yellow{
+
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+    left: 100px;
+    bottom : 100px;
+}
+.blue{
+
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+    bottom: 200px;
+}
+/* ****************************************************************************************************************************** */
+
+
+/* 
+POSIONING PROPERTY
+
+
+         
+        position:absolute; --->
+
+        It is also like relative positionng ,but in absolute positioning it  affects on the other HTML elements near to it. 
+
+        It throw out the element out of the flow....
+
+        coordinate properties :
+                        * Left
+                        * Right
+                        * Top
+                        * Bottom  
+                        
+    Example :
+             position:  absolute;
+             left: 200px;       ----> It moves the element to the right side from the left side
+             top: 1500px;       ----> it throws out the element 1500px down from the top...
+
+
+
+*/
+.red1{
+
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+    position:  absolute;
+    left: 200px;
+    top: 1500px;
+}
+.yellow1{
+
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+    top: 1300px;
+   
+}
+.blue1{
+
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+   left: 100px;
+   top: 1400px;
+}
+/* 
+
+POSIONING PROPERTY
+
+
+         
+        position:fixed; ---> it fixes that element to that position even we scroll the page (Example : Nave bars are fixed to the top of the page )
+
+
+
+*/
